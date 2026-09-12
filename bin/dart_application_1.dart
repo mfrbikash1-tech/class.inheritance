@@ -1,8 +1,18 @@
-import 'dart:io';
+
+class Father{
+  String jomi = "10 bigha";
+}
+
+
+
+class Son extends Father{
+  
+ String jomi1 ="20 bigha";
+}
 
 void main(List<String> args) {
-  print("Enter your number ");
-  String a =stdin.readLineSync()!;
-  print("Your Number is $a");
+  Son son1 =Son();
+  print(son1.jomi);
+  print(son1.jomi1);
   
 }
